@@ -1,0 +1,12 @@
+{% block content %}
+<h3> - Question 6:</h3>
+<h4>How many characters are there in the string "a\nb\x1f\000d"?</h4>
+<p> - My Answer: 7 I think. the escapes only count as one character, and I think
+  that '\000d' is one single escape, but I'm not sure. We can check with
+  len("a\nb\x1f\000d") though, which I will do now...HA! It was 6. '\000d' is
+  just one character, but I missed \xf, which is a hex character, I counted it as 2. </p>
+<p> - Mark's Answer: Six. The string containts the bytes a, newline, b, binary 31,
+  binary 0, and d. Pass the string to the built in len function to verify this, and pring each
+  of its character's ord results to see the actual byte values.</p>
+<p> Note: So I still got it wrong. I need to work on my binary I think.</p> 
+{% endblock %}

@@ -1,0 +1,18 @@
+{% block content %}
+<h3> - Question 3:</h3>
+<h4>How about these: <br/>
+A = ["spam"]<br/>
+B = A<br/>
+B[0] = "shrubbery"<br/>
+is A changed now?</h4>
+<p> - My Answer: Nope. A is set to the list object, the B is set to point to a
+  brand new list object, as it's set through a copy function (using the slice
+  notation). When the list that B points to is altered in place, it doesn't
+  affect A, as B is no pointing to a totally new object.</p>
+<p> - Mark's Answer: No: A still prints as ['spam']. The in-place assignment
+  through B has no effect this time because the slice expression made a copy of
+  the list object before it ws assigned to B. After the second assignment statement,
+  there are two different list objects that have the same value (in Python, we say
+  they are ==, but not is). The third statement changes the value of the list
+  object pointed to by B, but not that pointed to by A.</p>
+{% endblock %}

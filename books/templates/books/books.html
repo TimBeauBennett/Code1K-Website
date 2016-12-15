@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Books</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+  <style type="text/css">
+    html,
+    body {
+      height:100%
+    }
+  </style>
+</head>
+
+<body class="body" style="background-color:#f6f6f6">
+  <div class="container-fluid" style="min-height:95%; ">
+    <div class="row">
+      <div class="col-sm-2">
+        <br>
+        <center>
+          {% load staticfiles %}
+          <img scr="{% static 'homepage/img/profile.jpg' %}" class="responsive-img" style='max-height:100px;' alt="This is me!">
+        </center>
+      </div>
+      <div class="col-sm-10">
+        <br>
+        <center>
+          <h3>Some books I have read.</h3>
+        </center>
+      </div>
+    </div><hr>
+
+    <div class="row">
+    <div class="col-sm-2">
+      <br>
+
+      <br>
+        <div class="well bs-sidebar" id="sidbar" style="background-color:#fff">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href='/'>Home</a></li>
+            <li><a href='/podcast/'>Podcast</a></li>
+            <li><a href='/books/'>Books</a></li>
+            <li><a href='/resources/'>Resources</a></li>
+            <li><a href='/contact/'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-10">
+
+        <div class='container-fluid'>
+        <br></br>
+        <p>As part of my audacious learning to code project, I've been reading a whole
+          lot of books on the subject, on coding an otherwise. For a list of learning resources I've used and recommend,
+          head to my <a href='/resources'>resources page</a>. On this page I've included all my notes
+          to each book, which I'll update I as I continue reading. They're a bit more in depth than the
+          resources page, but you might find something useful.</p>
+
+          {% block content %}
+
+            {% include "books/includes/LPsummary.html" %}
+
+          {% endblock %}
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="containter-fluid" style='margin-left:15px'>
+      <p><a href="#" target="blank">Contact</a> | <a href="#" target="blank">LinkedIn</a> | <a href="#" target="blank" | <a href="https://www.twitter.com/timbeaubennett" target="blank">Twitter</a></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

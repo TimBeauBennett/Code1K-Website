@@ -1,0 +1,17 @@
+{% block content %}
+<h3> - Question 5:</h3>
+<h4>Why Might You use a Dictionary instead of a list?</h4>
+<p> - My Answer: Lots of reasons. Readability and usability for one, indexing
+  can be not that useful depending on it's application. Dictionaries can also
+  be used for simple database creation, which lists can do as well, but allowing
+  more data assocations. Look basically because both of them can be nested forever,
+  you could concievably use either for most things, even a list alongside a set of
+  global variables that mapped to the indexes... but really a dictionary is going
+  to be the best choice when you need to index a set of values with something other
+  than integers, but where those values don't need to be ordered.</p>
+<p> - Mark's Answer: Dictionaries are generally better when the data is labelled
+  (a record with field names, for example); lists are best suited to collections
+  of unlabeled items (such as all the files in a dictionary). Dictionary lookup
+  is also usually quicker than searching a list, though this might vary per
+  program. </p>
+{% endblock %}

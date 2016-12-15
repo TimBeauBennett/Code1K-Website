@@ -1,0 +1,65 @@
+Chapter One - The Way We Work Is Broken
+
+Narrative: The FBI were using 80's computers and paper, which was part of what led to September 11 not being picked up.
+They spend $451 million on a ten year digital system that utterly failed in 2010, and was never delivered.
+But Jeff Johnson, the new Assistant Director at the IT engineering division, cancelled all the contracts, brought it all in house,
+and used Agile methodologies to create the new system in 18 months with just $20 million. Hurrah!
+
+The Point: Scrum is a framework based of the principles of the Agile project environments.
+Sutherland was part of the team of developers in 2001 that came up with the 'Agile Manifesto'
+Scrum is a way of implementing that.
+Key to the idea, in the chapter specifically, is the concept of iteration, or 'Inspect and Adjust'.
+The old project strategy was the 'Waterfall process', where every step was planned out and executed in order, to a future delivery date.
+However, things would go wrong, costs would blow out unexpectedly, and often nothing would get done.
+By regularly inspecting and adapting, you pick things up your doing wrong and change them quickly.
+Work in small 'sprints' (eg 2 weeks) where you finish a small part of the project, and show it to the client.
+Then get feedback, and repeat.
+The world is changing super fast, and this is the only way we can work now, otherwise we'll be outdated before release.
+Inspires a lot of the Silicon Valley ideals - delivering a minimum viable product, lean startups, failing fast etc.
+
+Take-aways (written by Sutherland):
+ - Plans are useful, blindly following plans is Stupid
+  (ie, constantly question if you're doing something the best way and change if you ain't)
+ - Inspect and Adapt
+ - Change or Die
+  (If you don't, a competitor or disruptor will mess you up!
+ - Fail fast so you can fix early
+
+
+C2
+
+Narrative: Sutherland's career, and how he came to build management frameworks.
+Long story short - he started in the air force, flew in Vietnam, got a stats degree and went into biometrics research,
+where he got his PhD. When his funding ran out he worked developing systems for ATMs, then into software development, where
+he eventually developed Scrum.
+
+In Vietnam he was trained to OODA - Observe, Orient, Decide, Act - as a framework to react in
+life of death situations. When he worked as a researcher he identified complex organisms constantly moving from one stable state to
+another, the key question being whether it was a positive or negative move. He then identifies that organisations are complex
+organisms too. He worked with ATM's, but waterfall systems were making working people harder, but not smarter,
+and they still weren't delivering their product or generating revenue. Introduced to some AI guys, their robotsdidn't have
+a big central brain, but each of six legs had a separate processor.
+They didn't rely on databases, but learnt the room fresh using simple rules and constant feedback.
+
+This, along with study of key insights came from Japanese business built scrum.
+Japanese ethos of 'continuous improvement', actually introduced by an American (W. Edwards Deming) after ww2 but fitted nicely in with the Japanese culture
+It says, don't just get better once, get better continuously. Deming's PDCA cycle - Plan, Do, Check, Act was key.
+Plan and Do are intuitive, Check is to analyse what worked and what didn't, and Act is to make changes based on the checks.
+This is how Toyota rose to worldwide prominence, and it's how lean manufacturing and scrum development is done.
+The reason it matters so much is because software development was a broken model, things
+were late and costs blew out regularly, and business cycles were increasing so the needs of a contract
+would change by the time it finished.
+Scrum is the customer responsive system that suits a world with that kind of fast change, because
+new requirements are communicated and incorporated as soon as they appear.
+
+Take-aways (written by Sutherland):
+ - Hesitation is Death. Observe, Orient, Decide, Act.
+ - Look outwards for answer, learn constantly from the environment.
+ - Great Teams Are: cross-functional, autonomous and empowered, with a transcendent purpose.
+ - Don't Guess: Plan. Do. Check. Act. The repeat all that, then you get continuous improvement.
+ - Shu Ha Ri. Learn the rules, master them and make innovations. Then... Live The Rules!!!
+
+ C3
+ Looking at high performing individuals, their speed varies by around 10 times, the slowest vs the fastest at the same quality of work.
+ But teams, with the same quality work, differ in time lines by about 2000 - the fast team, 1 week, the slow teams 2000 weeks.
+ So focus on the teams, where real gains can be made with a different way of working (using a bit of the 80/20 rule here)

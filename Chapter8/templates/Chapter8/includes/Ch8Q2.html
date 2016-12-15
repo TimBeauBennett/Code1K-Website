@@ -1,0 +1,14 @@
+{% block content %}
+<h3> - Question 2:</h3>
+<h4>Name two ways to build a dictionary with two keys, 'a' and ;b;, each having
+an associated value of 0.</h4>
+<p> - My Answer: The literal works >>> D = {'a': 0, 'b': 0} as does a from keys
+  method. eg >>> dict.fromkeys (['a', 'b'], 0)</p>
+<p> - Mark's Answer: A literal expression such as {'a': 0, 'b': 0} or a series of
+  assignments like D = {}, D['a'] = 0, and D['b'] = 0 would create the desired
+  dictionary. You can also use the newer and simpler-to-code dict(a=0, b=0)
+  keyword orm, or the more flexible dict([('a',0), ('b', 0)]) key/value sequences
+  from. Or, because all the values are the same, you can use the secial form
+  dict.fromkeys('ab', 0). In 3.X and 2.7, you can also use a dictionary
+  compreshension: {k:0 for k in 'ab'}, though again this may be overkill here.</p>
+{% endblock %}

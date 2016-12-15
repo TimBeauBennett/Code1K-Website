@@ -1,0 +1,13 @@
+{% block content %}
+<h3> - Question 4:</h3>
+<h4>How might you go about changing a string in Python?</h4>
+<p> - My Answer: You wouldn't! BAH! Strings are immutable, so can't be changed in
+  place. However, you can make a straight copy of a string with an empty slice
+  expression ([:]) or you can create a new string in some other way, then assign
+  it to the original variable, effectively having changed the original string.
+  Alternatively you could assign the new string to a new variable and now you have two!</p>
+<p> - Mark's Answer: Strings cannot be changed; they are immutable. However, you
+  can achieve a similar effect by creating a new string - by concatenating, slicing,
+  running formatting expressions, or using a method call like replace - and then assiging
+  the result back to the original name.</p>
+{% endblock %}

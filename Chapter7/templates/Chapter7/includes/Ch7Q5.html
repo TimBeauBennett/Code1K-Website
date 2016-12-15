@@ -1,0 +1,14 @@
+{% block content %}
+<h3> - Question 5:</h3>
+<h4>Given a string S with the value "s,pa,m", name two ways to extract the two
+  characters in the middle.</h4>
+<p> - My Answer: Easiest option would be replace. <br/>>>> 's,pa,m'.replace(',', '')<br/>
+  Another option would be to rebuild the string through indexing.<br/>
+  >>> S = 's,pa,m'<br/>
+  >>> S = S[0] + S[2:4] + S[-1]<br/>
+  >>> S<br/>
+  >>> 'spam'</p>
+<p> - Mark's Answer: You can slice the string using S[2:4], or split on the comma
+  and index the string using S.split(',')[1].</p>
+<p> Note: Okay so I misunderstood. But whatever, my solution is more useful.</p> 
+{% endblock %}
