@@ -1,0 +1,65 @@
+{% block content %}
+<h3>Chapter 4 - Intro to Python Types</h3>
+
+  <h4>1: Name four of Python’s core data types.</h4>
+    <p> - My Answer: Numbers, strings, lists, dictionaries.</p>
+    <p> - Mark's Answer: Numbers, strings, lists, dictionaries, tuples, files, and
+      sets are generally considered to be the core object (data) types. Types, None,
+      and Booleans are sometimes classified this way as well. There are multiple
+      number types (integer, floating point, complex, fraction and decimal) and
+      multiple string types (simple strings and Unicode strings in Python 2.X, and
+      test strings and byte strings in Python 3.X).</p>
+
+  <h4>2: Why are they called 'core' data types?</h4>
+    <p> - My Answer: These objects are the data type included with Python. Technically
+      a user can build any kind of data type or object in a class, but even then
+      these basic data types are the building blocks of more complex objects. Also
+      they're generally build better, because your code probably suck. I know mine does.</p>
+    <p> - Mark's Answer: They are known as "core" types because they are part of
+      Python language itself and are always available; to create ther objects you
+      generally must call functions in impored modules. Most of the core types have
+      specific syntax for generating the objects. 'spam', for example, is an
+      expression that makes a string and determines the set of perations that can
+      be applied to it. Because of thiss, core tes are hardwired into Python's
+      syntax. In contrast, you must call the built in open function to create a
+      file object.</p>
+
+  <h4>3: What does "immutable" mean, and which three of Python's core types are considered immutable?</h4>
+    <p> - My Answer: Immutable just means that an object cannot be altered in place.
+      It can be operated on, and the changed version of the object returned as a
+      function's output, and returned to a variable, but the object itself persists,
+      unless the variable is overwritten. Strings, Tuples and sets (???) are immutable. </p>
+    <p> - Mark's Answer: An immutable object is an object that cannot be changed
+      after it is created. Numbers, strings and tuples in Python fall into this
+      categoy. While you cannot change an immtable obect in-place you can always
+      make a new one by running an expression. </p>
+
+  <h4>4: What does 'sequence' mean, and which three types fall into that category?</h4>
+    <p> - My Answer: A sequence is an objec that consists of ordered and indexed items.
+      The three cores types that are sequences are lists, strings and tuples. Yeah. </p>
+    <p> - Mark's Answer: A sequence is a positionally ordered collection of objexts.
+      Strings lists and tuples are all sequences in Python. They share comon sequence
+      operations, such as indexing, cancatenation, and slicing, but also have
+      type-specific method calls. </p>
+
+  <h4>5: What does "maping" mean, and which core type is a mapping?</h4>
+    <p> - My Answer: A mapping is an object type that associates one variable to
+      another for later retrieval. The dictionary is a mapping object. </p>
+    <p> - Mark's Answer: The term "mapping" denotes an object that maps keys
+      to assicaiated vlues. Python's dictionary is the only mapping type in
+      the cre type set. Mappings do not maintain any left-to-right positional
+      ordering; they support access to data stored by key, plus type-specific
+      method calls. </p>
+
+  <h4>6: What is 'polymorphism' and why do you care?</h4>
+    <p> - My Answer: It's Python's ability to have an operation have a different
+      affect on different object types, eg + is addition for numbers and concatenation
+      for strings. I care because I need to know them otherwise I'll start breaking
+      things, but also it's why python is powerful and flexible, and it's smart
+      because it knows what kind of objects things are an acts accordingly. </p>
+    <p> - Mark's Answer: "Polymorphism" meands that th meaning of an operation (like
+      a +) depend on the objects being operated on. This turns out to be a key idea
+      (perhaps the key idea) behind using Python well - not constraining code to
+      specific types makes that code automatically applicable to many tyes. </p>
+
+{% endblock %}

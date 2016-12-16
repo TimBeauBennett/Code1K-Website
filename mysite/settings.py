@@ -32,11 +32,11 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'homepage',
-    'books',
-    'contact',
-    'resources',
-    'Learning_Python',
-    'podcast',
+    # 'books',
+    # 'contact',
+    # 'resources',
+    # 'Learning_Python',
+    # 'podcast',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

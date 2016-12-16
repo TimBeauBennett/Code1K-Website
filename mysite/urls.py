@@ -18,10 +18,10 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin', admin.site.urls),
-    url(r'^books', include('books.urls')),
-    url(r'^Learning_Python', include('Learning_Python.urls')),
-    url(r'^resources', include('resources.urls')),
-    url(r'^contact', include('contact.urls')),
-    url(r'^podcast', include('podcast.urls')),
+    # url(r'^books', include('books.urls')),
+    # url(r'^Learning_Python', include('Learning_Python.urls')),
+    # url(r'^resources', include('resources.urls')),
+    # url(r'^contact', include('homepage.urls')),
+    # url(r'^podcast', include('podcast.urls')),
     url(r'^', include('homepage.urls')),
 ]
