@@ -1,0 +1,14 @@
+{% extends "homepage/basic.html" %}
+
+{% block title %}
+  Blog Post
+{% endblock %}
+
+{% block headline %}
+  {{post.title}}
+{% endblock %}
+
+{% block content %}
+  <h6>{{post.date}}</h6>
+  {{post.body|safe|linebreaks}}
+{% endblock %}
